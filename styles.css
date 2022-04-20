@@ -74,3 +74,52 @@ body{
 .continue__profile-photo img{
     height: 6rem;
 }
+
+.continue__login{
+    background-color: #0095F6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.continue__logout{
+    color: #0095f6;
+}
+.continue__not_account{
+    color: rgb(160, 160 , 160);
+    
+}
+.continue__link{
+    color: #0095F6;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.app_download{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app__platform{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app__platform:nth-child(1){
+    background-image: url('./img/apple-button.png');
+
+}
+.app__platform:nth-child(2){
+    background-image: url('./img/googleplay-button.png');
+
+}
